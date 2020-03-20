@@ -8,3 +8,12 @@ on the image to get better OCR quality. This is good enough for the learning I w
 
 Also, interesting, read: annoying, python images are merely arrays so converting between B&W and Color actually breaks the code for
 drawing with color overlays. 
+
+Windows Install for Google Tesseract (Required installation)
+https://github.com/UB-Mannheim/tesseract/wiki
+
+Then pip install pytesseract
+
+Also, add installation directory to your path (before running your notebook if you are using notebook). 
+
+Linux Users, well probably don't have this issue. 
